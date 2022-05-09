@@ -1,0 +1,11 @@
+:root {
+    --bg-primary-first: #00856f;
+    --bg-primary-second: #dce9e2;
+    --bg-primary-third: #f7f9f9;
+    --bg-primary-fourth: #fffaf1;
+    --bg-primary-hover: #00453a;
+
+    --txt-primary: #061800;
+    --txt-primary-paragraph: #384633;
+    --txt-primary-white: #3e3e3e;
+}
