@@ -8,8 +8,8 @@
     --bg-primary-fourth: hsl(39, 100%, 97%);
     --bg-primary-hover: hsl(170, 100%, 14%);
 
-    --txt-color-primary: hsl(105, 100%, 5%);
-    --txt-color-paragraph: hsl(104, 16%, 24%);
+    --txt-color-headline: hsl(210, 11%, 15%);
+    --txt-color-paragraph: hsl(210, 9%, 31%);
     --txt-color-white: hsl(0, 0%, 24%);
 
     /* Fonts
