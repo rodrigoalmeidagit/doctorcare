@@ -1,11 +1,110 @@
 :root {
+    font-size: 62.5%; /*1em = 10px*/
+
+    /* Colors */
     --bg-primary-first: #00856f;
     --bg-primary-second: #dce9e2;
     --bg-primary-third: #f7f9f9;
     --bg-primary-fourth: #fffaf1;
     --bg-primary-hover: #00453a;
 
-    --txt-primary: #061800;
-    --txt-primary-paragraph: #384633;
-    --txt-primary-white: #3e3e3e;
+    --txt-color-primary: #061800;
+    --txt-color-paragraph: #384633;
+    --txt-color-white: #3e3e3e;
+
+    /* Fonts
+    --fs-desktop-14: 1.4rem;
+    --fs-desktop-16: 1.6rem;
+    --fs-desktop-18: 1.8rem;
+    --fs-desktop-24: 2.4rem;
+    --fs-desktop-40: 4rem;
+    --fs-desktop-48: 4.8rem;
+    --fs-desktop-52: 5.2rem; 
+    */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-container {
+    background-color: var(--bg-primary-second);
+}
+
+.main-logo {
+    width: 100%;
+    padding: 27px 24px;
+}
+
+.main-content h3 {
+    font-size: var(--fs-desktop-14);
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--bg-primary-first);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 41px 0 16px;
+    letter-spacing: 2px;
+}
+
+.main-content h1 {
+    font-size: 34px;
+    line-height: 130%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    padding: 24px 24px 32px;
+}
+
+.main-content .btn-whats {
+    background-color: var(--bg-primary-first);
+    padding: 50px;
+    color: white;
+}
+
+/* .main-content .btn-whats img {
+    z-index: 2;
+} */
+
+.metrics {
+    margin: 0 24px;
+    background-color: var(--bg-primary-fourth);
+    border-radius: 6px;
+    border: 2px solid var(--bg-primary-third);
+}
+
+.metrics div:first-child {
+    padding-top: 40px;
+}
+
+.metrics div:nth-child(2) {
+    padding: 60px 0;
+}
+
+.metrics div:nth-child(3) {
+    padding-bottom: 40px;
+}
+
+.metrics h4 {
+    font-size: 48px;
+}
+
+.metrics p {
+    font-size: 16px;
+    color: var(--bg-primary-first);
+    line-height: 150%;
 }
